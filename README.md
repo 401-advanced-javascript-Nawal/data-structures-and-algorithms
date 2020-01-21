@@ -10,4 +10,4 @@ How to find a key value inside sorted array
 - using while approch till I find the key if it is exist inside the sorted array 
 
 ## Solution
-<!-- Embedded whiteboard image -->
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/binaryArr/assets/codeCh3.jpg
