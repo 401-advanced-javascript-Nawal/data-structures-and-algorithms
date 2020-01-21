@@ -7,8 +7,8 @@
 ### Author : Nawal Suliman
 
 ### Links and Resources
-- [submission PR](http://xyz.com)
-- [ci/cd](http://xyz.com) (GitHub Actions)
+- [submission PR](https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/pull/1)
+- [ci/cd](https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/actions?query=workflow%3A%22Node+CI%22) (GitHub Actions)
 
 ### Setup
 #### `.env` requirements (where applicable)
