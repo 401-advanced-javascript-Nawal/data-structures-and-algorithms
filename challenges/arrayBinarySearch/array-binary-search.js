@@ -17,21 +17,20 @@ function binarySearch(array, key) {
         let middle = Math.floor((intialIdx + endIdx) / 2);
         // console.log('middle : ', middle);
 
-        if (array[middle] === key) 
-        return middle;
-        
-        if (array[middle] < key)
-        {
+        if (array[middle] === key)
+            return middle;
+
+        if (array[middle] < key) {
+            intialIdx = middle + 1;
             console.log('intialIdx : ', intialIdx);
-           return intialIdx = middle + 1;
         }
-        else
-        {
+        else {
+            endIdx = middle - 1;
             console.log('endIdx : ', endIdx);
-            return endIdx = middle - 1;
         }
     }
     return false;
 }
 
 binarySearch(searchArr, searchKey)
+console.log('binarySearch(searchArr, searchKey) : ', binarySearch(searchArr, searchKey));
