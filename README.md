@@ -5,7 +5,7 @@
 - return an array with the new value added at the middle index.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+- Used splice method to put the new value into sorted array 
 
 ## Solution
 <!-- Embedded whiteboard image -->
