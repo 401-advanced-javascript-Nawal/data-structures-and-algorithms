@@ -30,7 +30,7 @@ finMatValidator.fibFun = (n) => {
         //   newArr.push(sumItem);
     }
     // console.log('arr : ', arr);
-    return arr;
+    return arr[n];
 }
 
 //   fibFun(10);

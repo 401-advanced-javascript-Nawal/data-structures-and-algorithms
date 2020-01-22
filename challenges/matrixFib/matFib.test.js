@@ -18,7 +18,7 @@ describe('validator module performs basic validation of', () => {
       it('Fibonacci Sequence ', () => {
         let arr = [ 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55 ];
         let n = 10;
-        expect(validator.fibFun(n)).toEqual(arr);
+        expect(validator.fibFun(n)).toEqual(arr[n]);
       });
     
     });
