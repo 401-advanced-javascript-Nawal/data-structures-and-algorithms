@@ -8,4 +8,4 @@
 - Used splice method to put the new value into sorted array 
 
 ## Solution
-<!-- Embedded whiteboard image -->
+- https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/shiftArr/assets/shiftArray.jpg
