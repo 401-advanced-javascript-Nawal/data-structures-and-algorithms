@@ -3,19 +3,18 @@
 let finMatValidator = module.exports = {};
 
 
-finMatValidator.matrixArrSum = (arr) => {
-    let sumArr = [];
+finMatValidator.matrixSum = (arr) => {
+    let newArr = [];
     for (let row = 0; row < arr.length; row++) {
         let sum = 0;
         for (let col = 0; col < arr[row].length; col++) {
             sum += arr[row][col];
         }
-        sumArr.push(sum);
+        newArr.push(sum);
     }
     // console.log(`The summed array is [${sumArr}]`);
-    return sumArr;
+    return newArr;
 }
-//   matrixArrSum([[1,2,5],[3,5, 4]]);
 
 
 // let array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -35,3 +34,8 @@ finMatValidator.fibFun = (n) => {
 }
 
 //   fibFun(10);
+
+finMatValidator.isNumber = (num)=>
+{
+    return typeof num === 'number';
+}
