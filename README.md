@@ -13,3 +13,4 @@ How to do summation for matrix array and calculate the Fibonacci Sequence functi
 - using for loop for Fibonacci Sequence , and nested for-loop for Matrix
 
 ## Solution
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/matrixFib/20200122_164155.jpg
