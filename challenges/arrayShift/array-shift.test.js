@@ -8,6 +8,6 @@ describe('validator module performs basic validation of', () => {
 
         let array = [4, 8, 15, 23, 42];
         let value = 16;
-        expect(validator.binarySearch(array, value)).toBeTruthy();
+        expect(validator.insertShiftArray(array, value)).toEqual(6);
     });
 });
