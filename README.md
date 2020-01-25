@@ -1,13 +1,15 @@
 # data-structures-and-algorithms
 
 # Singly Linked List
-<!-- Short summary or background information -->
+- Short brief how it's work and linked to each other as a object chain 
 
 ## Challenge
-<!-- Description of the challenge -->
+- Utilize the Single-responsibility principle: any methods you write should be clean, reusable, abstract component parts to the whole challenge.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+- used class and constructor format , while loop 
 
 ## API
-<!-- Description of each method publicly available to your Linked List -->
+- insert : append new node into linked list 
+- includes : find certain node 
+- to string : convert all list items to string 
