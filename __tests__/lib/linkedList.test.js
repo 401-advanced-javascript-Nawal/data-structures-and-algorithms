@@ -19,4 +19,12 @@ describe(' LinkedList Module ', () => {
         expect(testLL.insert(value)).toEqual(testLL);
     });
 
+    it(' Includes node\'s value if exist ', () => {
+
+        let value = 'Nawal' ;
+        let testLL = new LinkedList();
+        expect(testLL.includes(value)).toEqual(testLL.value);      
+    });
+
+
 }); // end of LinkedList Module
