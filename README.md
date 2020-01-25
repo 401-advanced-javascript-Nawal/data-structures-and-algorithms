@@ -1,16 +1,13 @@
 # data-structures-and-algorithms
 
-# Challenge Summary
-How to do summation for matrix array and calculate the Fibonacci Sequence function
+# Singly Linked List
+<!-- Short summary or background information -->
 
-## Challenge Description
--Ask the candidate to write a function to add up the sum of each row in a matrix of arbitrary size, and return an array with the appropriate values.
-
--Ask the candidate to write a function to accepts an integer, and returns the nth number in the Fibonacci sequence.
-
+## Challenge
+<!-- Description of the challenge -->
 
 ## Approach & Efficiency
-- using for loop for Fibonacci Sequence , and nested for-loop for Matrix
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
-## Solution
-https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/matrixFib/20200122_164155.jpg
+## API
+<!-- Description of each method publicly available to your Linked List -->
