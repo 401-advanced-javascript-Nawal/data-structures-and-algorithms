@@ -16,15 +16,26 @@ describe(' LinkedList Module ', () => {
 
         let value = 'Nawal' ;
         let testLL = new LinkedList();
-        expect(testLL.insert(value)).toEqual(testLL);
+        testLL.insert(value);
+        expect(testLL.head.value).toEqual(value);
+        expect(typeof(testLL.head.next)).toEqual('object');
     });
 
     it(' Includes node\'s value if exist ', () => {
 
         let value = 'Nawal' ;
         let testLL = new LinkedList();
-        expect(testLL.includes(value)).toEqual(testLL.value);      
+        testLL.includes(value);
+        expect(testLL.head.value).toEqual(value);      
     });
+
+    it(' ToString nodes ', () => {
+        let value = 'Nawal' ;
+        let testLL = new LinkedList();
+        testLL.toStringType();
+        expect(String(testLL.head)).toEqual('string');      
+    });
+
 
 
 }); // end of LinkedList Module
