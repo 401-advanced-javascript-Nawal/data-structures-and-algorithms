@@ -5,16 +5,16 @@ const LinkedList = require('../../lib/linkedList.js');
 
 describe(' LinkedList Module ', () => {
 
+    let testLL = new LinkedList();
+
     it(' LinkedList Constructor ', () => {
 
-        let testLL = new LinkedList();
         expect(testLL.head).toEqual(null);
     });
 
     it(' Insert new node with value ', () => {
 
         let value = 'Nawal' ;
-        let testLL = new LinkedList();
         testLL.insert(value);
         expect(testLL.head.value).toEqual(value);
         expect(typeof(testLL.head.next)).toEqual('object');
@@ -23,7 +23,6 @@ describe(' LinkedList Module ', () => {
     it(' Includes node\'s value if exist ', () => {
 
         let value = 'Nawal' ;
-        let testLL = new LinkedList();
         testLL.includes(value);
         expect(testLL.head.value).toEqual(value);      
     });
