@@ -10,6 +10,9 @@
 - used class and constructor format , while loop 
 
 ## API
-- insert : append new node into linked list 
+- insert : Create new Node and add it at first
 - includes : find certain node 
 - to string : convert all list items to string 
+- insertBefore : Insert Node before another Node
+- insertAfter : Insert node after given value 
+- Append : add new node to the end of the list

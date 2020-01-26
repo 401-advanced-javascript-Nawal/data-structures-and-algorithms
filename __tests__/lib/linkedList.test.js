@@ -1,7 +1,7 @@
 'use strict';
 
 const LinkedList = require('../../lib/linkedList.js');
-
+const Node = require('../../lib/node.js')
 
 describe(' LinkedList Module ', () => {
 
@@ -12,7 +12,7 @@ describe(' LinkedList Module ', () => {
         expect(testLL.head).toEqual(null);
     });
 
-    it(' Insert new node with value ', () => {
+    it(' Insert() new node with value ', () => {
 
         let value = 'Nawal' ;
         testLL.insert(value);
@@ -20,7 +20,7 @@ describe(' LinkedList Module ', () => {
         expect(typeof(testLL.head.next)).toEqual('object');
     });
 
-    it(' Includes node\'s value if exist ', () => {
+    it(' Includes() node\'s value if exist ', () => {
 
         let value = 'Nawal' ;
         testLL.includes(value);
@@ -34,6 +34,16 @@ describe(' LinkedList Module ', () => {
     //     expect(String(testLL.head)).toEqual('string');      
     // });
 
+    it(' append() add new node at the end of the list ', () => {
+    
+    });
 
+    it(' insertBefore() Insert Node before another Node ', () => {
+    
+    });
+
+    it(' insertAfter() Insert node after given value ', () => {
+    
+    });
 
 }); // end of LinkedList Module
