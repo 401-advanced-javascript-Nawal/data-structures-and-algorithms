@@ -28,12 +28,12 @@ describe(' LinkedList Module ', () => {
         expect(testLL.head.value).toEqual(value);      
     });
 
-    it(' ToString nodes ', () => {
-        let value = 'Nawal' ;
-        let testLL = new LinkedList();
-        testLL.toStringType();
-        expect(String(testLL.head)).toEqual('string');      
-    });
+    // it(' ToString nodes ', () => {
+    //     let value = 'Nawal' ;
+    //     let testLL = new LinkedList();
+    //     testLL.toStringType();
+    //     expect(String(testLL.head)).toEqual('string');      
+    // });
 
 
 
