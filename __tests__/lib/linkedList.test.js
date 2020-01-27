@@ -35,15 +35,18 @@ describe(' LinkedList Module ', () => {
     // });
 
     it(' append() add new node at the end of the list ', () => {
-    
-    });
+        let value = 'Nawal' ;
+        testLL.insert(value);
+        expect(testLL.head.value).toEqual('Nawal');
+        expect(testLL.head.value).toEqual(value);
+        });
 
-    it(' insertBefore() Insert Node before another Node ', () => {
+    // it(' insertBefore() Insert Node before another Node ', () => {
     
-    });
+    // });
 
-    it(' insertAfter() Insert node after given value ', () => {
+    // it(' insertAfter() Insert node after given value ', () => {
     
-    });
+    // });
 
 }); // end of LinkedList Module
