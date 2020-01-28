@@ -53,4 +53,18 @@ describe(' LinkedList Module ', () => {
         testLL.insertAfter(value1, value2);
         expect(testLL.head.value).toEqual(value2);
     });
+
+        it('llkthFromEnd(k) return the node’s value that is k from the end of the linked list.  ', () => {
+          // head -> [1] -> [3] -> [8] -> [2] -> X  k=0  output=2
+          let testLL = new LinkedList();
+          testLL.insert('1');
+          testLL.insert('3');
+          testLL.insert('8');
+          testLL.insert('2');
+          expect(testLL.llkthFromEnd(0)).toEqual('2');
+          expect(testLL.llkthFromEnd(2)).toEqual('3');
+          expect(testLL.llkthFromEnd(6)).toEqual('Exception');
+        });
+
+
 }); // end of LinkedList Module
