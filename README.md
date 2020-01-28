@@ -16,3 +16,4 @@
 - insertBefore : Insert Node before another Node
 - insertAfter : Insert node after given value 
 - Append : add new node to the end of the list
+- kthFromEnd : return the node's value in k position
