@@ -4,8 +4,9 @@
   "description": "# Challenge Summary How to do summation for matrix array and calculate the Fibonacci Sequence function",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage"
-  },
+    "test": "jest --verbose --coverage",
+    "lint": "eslint **/*.js"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms.git"
