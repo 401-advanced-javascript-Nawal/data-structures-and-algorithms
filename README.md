@@ -18,3 +18,6 @@
 - Append : add new node to the end of the list
 - kthFromEnd : return the node's value in k position
 - mergeLists : takes two linked lists as arguments. Zip the two linked lists together into one list
+
+# White Board : 
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/ll-merge/20200129_173214.jpg
