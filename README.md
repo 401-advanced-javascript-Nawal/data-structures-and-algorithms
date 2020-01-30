@@ -19,3 +19,4 @@
 - kthFromEnd : return the node's value in k position
 
 # White-Board 
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/ll-kth-from-end/20200130_155935.jpg
