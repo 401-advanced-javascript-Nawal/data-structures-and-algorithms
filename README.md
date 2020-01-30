@@ -18,3 +18,4 @@
 - Append : add new node to the end of the list
 
 # White Board 
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/ll-insertions/20200130_154004.jpg
