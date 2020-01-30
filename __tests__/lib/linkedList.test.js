@@ -66,5 +66,23 @@ describe(' LinkedList Module ', () => {
     expect(testLL.llkthFromEnd(6)).toEqual('Exception');
   });
 
+  it('llkthFromEnd(k) return k negative number since K < 0  ', () => {
+    // head -> [1] -> [3] -> [8] -> [2] -> X  k=0  output=2
+    let testLL = new LinkedList();
+    testLL.insert('10');
+    testLL.insert('30');
+    testLL.insert('50');
+    testLL.insert('70');
+    expect(testLL.llkthFromEnd(-1)).toEqual('K negative Number');
+  });
+
+  it('llkthFromEnd(k) if LL.size === 1 ,return currentNode.value  ', () => {
+    // head -> [1] -> [3] -> [8] -> [2] -> X  k=0  output=2
+    let testLL = new LinkedList();
+    testLL.insert('10');
+    expect(testLL.llkthFromEnd(0)).toEqual('10');
+    
+  });
+
 
 }); // end of LinkedList Module
