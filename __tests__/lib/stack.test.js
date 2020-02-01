@@ -7,23 +7,15 @@ describe(' Stack Module ', () =>
     it('Push(), add item to stack using push()' , () =>
     {
         let newStack = new Stack();
-        // check if it's empty 
-        expect(newStack.peek).toBeNull();
         newStack.push('Sally');
-        // check the top element 
-        expect(newStack.top).toEqual('Sally');
         expect(newStack.peek()).toEqual('Sally');
         newStack.push('jasmine');
-        // check the top after added another element 
-        expect(newStack.peek).toEqual('jasmine');
+        expect(newStack.peek()).toEqual('jasmine');
     }); // end of push method testing
     
     it('Pop() , remove an item from stack using pop()' , () =>
     {   
         let newStack = new Stack();
-        // check if it's empty 
-        newStack.pop();
-        expect(newStack.stackArr).toBeNull();
         newStack.push('Sally');
         newStack.push('jasmine');
         let popItem = newStack.pop();
@@ -31,9 +23,9 @@ describe(' Stack Module ', () =>
         expect(popItem).toEqual('jasmine');
         // check the left element will be the top(peek)
         expect(newStack.peek()).toEqual('Sally');
-        newStack.pop();
-        // check if there is no element to remove 
-        expect(newStack.peek).toBeNull();
+        // check if there is no element to remove
+        newStack.pop(); 
+        expect(newStack.peek()).toBeUndefined();
     }); // end of pop method testing 
 
     it('Peek() , return the value( Top ) of the stack' , () =>
