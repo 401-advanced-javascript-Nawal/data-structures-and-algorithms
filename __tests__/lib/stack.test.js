@@ -25,7 +25,7 @@ describe(' Stack Module ', () =>
         expect(newStack.peek()).toEqual('Sally');
         // check if there is no element to remove
         newStack.pop(); 
-        expect(newStack.peek()).toBeUndefined();
+        expect(newStack.stackArr).toEqual([]);
     }); // end of pop method testing 
 
     it('Peek() , return the value( Top ) of the stack' , () =>
