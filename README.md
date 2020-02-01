@@ -24,4 +24,4 @@
 - Peek : return the front value of the queue 
 
 ## WhitBoard 
-
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/stack-and-queue/20200201_222914.jpg
