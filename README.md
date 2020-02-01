@@ -8,6 +8,20 @@
 - Create a Stack class that has a top property. It creates an empty Stack when instantiated.
 
 ## Approach & Efficiency
-- I used the class strcture to implement its. 
+- I used the class structure to implement its. 
+
+## API
+### Stack 
+- Push : add item to stack using push()
+- Pop : remove an item from stack using pop()
+- Peek : return the value( Top ) of the stack
+- isEmpty : check if the stack is empty 
+
+### Queue 
+- Enqueue : Add an item at the end of the queue
+- Dequeue : remove an item from the front of the queue
+- isEmpty : check if the Queue is empty 
+- Peek : return the front value of the queue 
 
 ## WhitBoard 
+
