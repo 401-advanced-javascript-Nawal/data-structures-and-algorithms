@@ -34,5 +34,18 @@ describe(' Queue Module ', () => {
 
     }); // end of enqueue method test
 
+    it('isEmpty() , check if the Queue is empty or not ', () =>
+    {
+        let newQueue = new Queue();
+        expect(newQueue.isEmpty(newQueue.queueArr)).toEqual('Empty Queue');
+    });
+
+    it('Peek() , return the front value ', () =>
+    {
+        let newQueue = new Queue();
+        newQueue.enqueue('Sally');
+        newQueue.enqueue('jasmine');
+        expect(newQueue.front).toEqual('Sally');
+    });
 
 }); // end of stack testing 

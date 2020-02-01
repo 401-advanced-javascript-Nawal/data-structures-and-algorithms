@@ -40,4 +40,10 @@ describe(' Stack Module ', () => {
         expect(newStack.peek()).toEqual('Sally');
     }); // end of peek method testing 
 
+    it('isEmpty() , check if the stack is empty or not ', () =>
+    {
+        let newStack = new Stack();
+        expect(newStack.isEmpty(newStack.stackArr)).toEqual('empty Stack');
+    });
+
 }); // end of stack testing 
