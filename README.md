@@ -20,3 +20,6 @@
 
 # White-Board 
 https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/ll-kth-from-end/20200130_155935.jpg
+
+# Big O efficiency
+- kthFromEnd : based on K value I need to iterate over each node in the linked list then return the node's value that equal to the K value so , the big O notation will be O ( 1-n ) .
