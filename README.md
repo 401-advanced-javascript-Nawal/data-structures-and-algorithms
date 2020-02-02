@@ -21,3 +21,6 @@
 
 # White Board : 
 https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/ll-merge/20200129_173214.jpg
+
+# Big O efficiency
+- mergeLists : since I will iterate over both linked list then merge it so , the big O notation will be for first LL is O(n) , and the second one O(n) so, the Big O for both it will be n square . 
