@@ -23,5 +23,18 @@
 - isEmpty : check if the Queue is empty 
 - Peek : return the front value of the queue 
 
+# Big O 
+### Stack 
+- Push : O(1)
+- Pop : O(1)
+- Peek : O(1)
+- isEmpty : O(1)
+
+### Queue 
+- Enqueue : O(1)
+- Dequeue : O(1)
+- isEmpty : O(1)
+- Peek : O(1)
+
 ## WhitBoard 
 https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/stack-and-queue/20200201_222914.jpg
