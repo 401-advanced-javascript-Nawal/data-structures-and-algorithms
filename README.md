@@ -12,4 +12,4 @@
 - It takes one Hour to solve it . 
 
 ## Solution
-<!-- Embedded whiteboard image -->
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/multi-bracket-validation/20200205_014446.jpg
