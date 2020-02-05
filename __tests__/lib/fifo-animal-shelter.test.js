@@ -12,6 +12,7 @@ describe(' Animal Shelter Module ', () => {
 
     it(' Add animal when it\'s cat ', () => {
         // console.log('aniSh : ', aniSh);
+        expect(aniSh.enqueue(anyth)).toEqual('Not Animal');     
         aniSh.enqueue(animal1);
         // console.log('animal1 : ', animal1);
         expect(aniSh.catArr[0][0]).toBe('Luna');
@@ -28,18 +29,25 @@ describe(' Animal Shelter Module ', () => {
         let animal3 = ['rain','cat'] ;
         aniSh.enqueue(animal3);
         // console.log('aniSh Cat : ', aniSh);
+        let shiftAnim = aniSh.dequeue(animal1);
+        console.log('shiftAnim Cat : ', shiftAnim);
+        expect(shiftAnim[0]).toBe('Luna');
+        expect(shiftAnim[1]).toBe('cat');
         aniSh.dequeue(animal3);
-        expect(aniSh.catArr[1][0]).toBe('rain');
-        expect(aniSh.catArr[1][1]).toBe('cat');
+        expect(aniSh.catArr.length).toEqual(0);
+
     });
 
     it(' remove pref when it\'s dog ', () => {
         let animal4 = ['wolf','dog'] ;
         aniSh.enqueue(animal4);
-        // console.log('aniSh Dog : ', aniSh);
+        console.log('aniSh Dog : ', aniSh);
+        let shiftAnim = aniSh.dequeue(animal2);
+        console.log('shiftAnim Dog : ', shiftAnim);
+        expect(shiftAnim[0]).toBe('Cooper');
+        expect(shiftAnim[1]).toBe('dog');
         aniSh.dequeue(animal4);
-        expect(aniSh.dogArr[1][0]).toBe('wolf');
-        expect(aniSh.dogArr[1][1]).toBe('dog');
+        expect(aniSh.dogArr.length).toEqual(0);
     });
 
     it(' Return Null when pref is not an animal ', () => {
