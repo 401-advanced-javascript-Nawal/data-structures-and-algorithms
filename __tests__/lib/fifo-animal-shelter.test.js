@@ -51,7 +51,7 @@ describe(' Animal Shelter Module ', () => {
     });
 
     it(' Return Null when pref is not an animal ', () => {
-
+        expect(aniSh.dequeue(anyth)).toBeNull();
     });
 
 }); // end of AnimalShelter test 
