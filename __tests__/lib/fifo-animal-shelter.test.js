@@ -25,11 +25,21 @@ describe(' Animal Shelter Module ', () => {
     });
 
     it(' remove pref when it\'s cat ', () => {
-
+        let animal3 = ['rain','cat'] ;
+        aniSh.enqueue(animal3);
+        // console.log('aniSh Cat : ', aniSh);
+        aniSh.dequeue(animal3);
+        expect(aniSh.catArr[1][0]).toBe('rain');
+        expect(aniSh.catArr[1][1]).toBe('cat');
     });
 
     it(' remove pref when it\'s dog ', () => {
-
+        let animal4 = ['wolf','dog'] ;
+        aniSh.enqueue(animal4);
+        // console.log('aniSh Dog : ', aniSh);
+        aniSh.dequeue(animal4);
+        expect(aniSh.dogArr[1][0]).toBe('wolf');
+        expect(aniSh.dogArr[1][1]).toBe('dog');
     });
 
     it(' Return Null when pref is not an animal ', () => {
