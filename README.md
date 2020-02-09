@@ -23,4 +23,9 @@
 - isEmpty : check if the Queue is empty 
 - Peek : return the front value of the queue 
 
+### PseudoQueue 
+- enqueue : Add an item at the end of the PseudoQueue , Big O is O(1)
+- dequeue : remove an item from the front of the stack1 then add it to stack2 , Big O is O(2) , pop then push 
+
 ## WhitBoard 
+
