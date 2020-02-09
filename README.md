@@ -28,4 +28,4 @@
 - dequeue : remove an item from the front of the stack1 then add it to stack2 , Big O is O(2) , pop then push 
 
 ## WhitBoard 
-
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/queue-with-stacks/20200210_004633.jpg
