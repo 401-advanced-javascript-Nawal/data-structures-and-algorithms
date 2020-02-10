@@ -16,5 +16,5 @@
 - PostOrder() : Left => Right => Data => O(n)
 
 ## White-Board
-
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/tree/20200210_174652.jpg
 
