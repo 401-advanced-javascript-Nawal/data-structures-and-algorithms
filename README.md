@@ -17,4 +17,4 @@
 - fizzbuzz : Big O => O(n)
 
 ## White-Board
-
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/fizzbuzz-tree/20200211_232449.jpg
