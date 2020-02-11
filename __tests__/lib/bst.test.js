@@ -7,29 +7,29 @@ const BST = require('../../lib/bst.js');
 describe(' Binary Search Tree Modular', () => {
 
 
-    const newNode1 = new Node(10);
-    const newNode2 = new Node(20);
-    const newNode3 = new Node(5);
-    const newNode4 = new Node(40);
-    const newNode5 = new Node(2);
+  const newNode1 = new Node(10);
+  const newNode2 = new Node(20);
+  const newNode3 = new Node(5);
+  const newNode4 = new Node(40);
+  const newNode5 = new Node(2);
 
-    const newTree = new BST();
+  const newTree = new BST();
 
-    newTree.add(newNode1.value);
-    newTree.add(newNode2.value);
-    newTree.add(newNode3.value);
-    newTree.add(newNode4.value);
+  newTree.add(newNode1.value);
+  newTree.add(newNode2.value);
+  newTree.add(newNode3.value);
+  newTree.add(newNode4.value);
 
-    console.log('newTree.root : ', newTree.root);
-    it('ADD()', () => {
-        newTree.add(newNode5.value);
-        expect(newNode5.value).toEqual(2);
-        console.log('newTree : ', newTree);
-    }); // end of add test 
+  console.log('newTree.root : ', newTree.root);
+  it('ADD()', () => {
+    newTree.add(newNode5.value);
+    expect(newNode5.value).toEqual(2);
+    console.log('newTree : ', newTree);
+  }); // end of add test 
 
-    it('Contains()', () => {
-        expect(newTree.contains(newNode5)).toBeFalsy();
-        console.log('newTree : ', newTree);
-    }); // end of add test 
+  it('Contains()', () => {
+    expect(newTree.contains(newNode5)).toBeFalsy();
+    console.log('newTree : ', newTree);
+  }); // end of add test 
 
 });
