@@ -14,9 +14,7 @@
 - preOrder() : Data => Left => Right => O(n)
 - InOrder() : Left => Data => Right => O(n)
 - PostOrder() : Left => Right => Data => O(n)
-- add() : add node to BST => O(logn)
-- contains() : if exist => O(logn)
+
 
 ## White-Board
-https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/tree/20200210_174652.jpg
 
