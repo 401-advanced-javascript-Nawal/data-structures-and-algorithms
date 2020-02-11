@@ -14,7 +14,7 @@
 - preOrder() : Data => Left => Right => O(n)
 - InOrder() : Left => Data => Right => O(n)
 - PostOrder() : Left => Right => Data => O(n)
-
+- fizzbuzz : Big O => O(n)
 
 ## White-Board
 

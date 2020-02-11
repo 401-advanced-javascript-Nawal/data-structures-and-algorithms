@@ -17,18 +17,24 @@ describe(' Binary Tree Modular' , () =>{
   tree = new Bintree(one);
 
   it('PreOrder()' , ()=>{
-    console.log('tree preOrder : ', tree.preOrder());
+    // console.log('tree preOrder : ', tree.preOrder());
     expect(tree.preOrder()).toEqual([10,30,20,40]);
   }); // end of preorder 
 
   it('InOrder()' , ()=>{
-    console.log('tree inOrder: ', tree.inOrder());
+    // console.log('tree inOrder: ', tree.inOrder());
     expect(tree.inOrder()).toEqual([30,10,40,20]);
   }); // end of preorder 
 
   it('PostOrder()' , ()=>{
-    console.log('tree postOrder : ', tree.postOrder());
+    // console.log('tree postOrder : ', tree.postOrder());
     expect(tree.postOrder()).toEqual([30,40,20,10]);
+  }); // end of preorder 
+
+  it('FizzBuzzTree()' , ()=>{
+    // I can't do a test for it , sorry 
+    console.log('tree  : ', tree);
+    expect(tree.left).toBeUndefined();
   }); // end of preorder 
 
 }); //  end of binary tree test 
