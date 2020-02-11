@@ -20,12 +20,16 @@ describe(' Binary Search Tree Modular', () => {
     newTree.add(newNode3.value);
     newTree.add(newNode4.value);
 
-
-
+    console.log('newTree.root : ', newTree.root);
     it('ADD()', () => {
         newTree.add(newNode5.value);
         expect(newNode5.value).toEqual(2);
         console.log('newTree : ', newTree);
-    }); // end of preorder
+    }); // end of add test 
+
+    it('Contains()', () => {
+        expect(newTree.contains(newNode5)).toBeFalsy();
+        console.log('newTree : ', newTree);
+    }); // end of add test 
 
 });
