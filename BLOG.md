@@ -41,3 +41,4 @@ function insertion(arr){
 ```
 
 ## Blog Article 
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/C26-insertion/20200223_163218.jpg
