@@ -89,3 +89,4 @@ function mergeSort(arr) {
 ```
 
 ## Blog Article 
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/C27-mergeSort/20200225_074731.jpg
