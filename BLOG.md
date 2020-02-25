@@ -84,3 +84,4 @@ QuickSort(array,0,5);
 ```
 
 ## Blog Article 
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/C28-quickSort/20200225_074731.jpg
