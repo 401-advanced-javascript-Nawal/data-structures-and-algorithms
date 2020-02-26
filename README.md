@@ -12,3 +12,4 @@
 - Big O => O(1-n)
 
 ## White-Board
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/max-tree/20200226_215751.jpg
