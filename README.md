@@ -12,4 +12,4 @@
 - Big O => O(n)
 
 ## White-Board
-
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/breadth-first/20200226_204331.jpg
