@@ -12,9 +12,13 @@
 * hash: takes in an arbitrary key and returns an index in the collection.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+- I took the linked list and array approch to implement this data structure .
+- Big O ==> (No Collions) Time O(1) space O(1) , (Collions) time O(1-n) , Space O(1)
 
 ## API
-<!-- Description of each method publicly available in each of your hashtable -->
+- hash() : method takes a key as string (arg) and return a hashed key 
+- add() : 
+- get() :
+- contains() :  
 
 ## White-Board
