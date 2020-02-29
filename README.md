@@ -19,6 +19,8 @@
 - hash() : method takes a key as string (arg) and return a hashed key 
 - addPair() : method to hash the key then add it to array as a node in linked list 
 - get() : get an item from array of the hashtable
-- contains() :  
+- contains() :  return true if the key exist and false if not
+
+- Big O ==> Space and time is O(1)
 
 ## White-Board
