@@ -17,8 +17,8 @@
 
 ## API
 - hash() : method takes a key as string (arg) and return a hashed key 
-- addPair() : method to hash the  key then add it to array as a node in linked list 
-- get() :
+- addPair() : method to hash the key then add it to array as a node in linked list 
+- get() : get an item from array of the hashtable
 - contains() :  
 
 ## White-Board
