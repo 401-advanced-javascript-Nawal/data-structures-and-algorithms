@@ -24,4 +24,4 @@
 - Big O ==> Space and time is O(1)
 
 ## White-Board
-
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/hashtable/20200301_001833.jpg
