@@ -12,3 +12,4 @@
 - Big O ==> time = space = O(n)
 
 ## White-Board
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/C31-repeatedWord/20200301_220225.jpg
