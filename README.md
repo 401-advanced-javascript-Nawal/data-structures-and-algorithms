@@ -13,3 +13,4 @@
 - insertion() : sort the arrays from BT ==> O(n)
 
 ## White-Board
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/C32-treeIntersection/20200302_154936.jpg
