@@ -9,8 +9,7 @@
 
 ## Approach & Efficiency
 - preOrder() : Data => Left => Right => O(n)
-- InOrder() : Left => Data => Right => O(n)
-- PostOrder() : Left => Right => Data => O(n)
-- add() : add node to BST => O(logn)
+- intersection_destructive() : find the intersections values between two BT ==> O(N)
+- insertion() : sort the arrays from BT ==> O(n)
 
 ## White-Board
