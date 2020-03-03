@@ -14,7 +14,7 @@
 
 ## Approach & Efficiency
 - I took the linked list and array approch to implement this data structure .
-- Big O ==> (No Collions) Time O(1) space O(1) , (Collions) time O(1-n) , Space O(1)
+- Big O ==> (No Collions) Time O(1) space O(n) , (Collions) time O(1-n) , Space O(n)
 
 ## API
 - hash() : method takes a key as string (arg) and return a hashed key 
@@ -26,7 +26,10 @@
 - Big O ==> Space and time is O(1) , Find ==> BestCase O(1) ==> WorstCase O(n)
 
 * Double HashTable 
-- Big O ==> Space and time is O(1) for each , Find ==> BestCase O(1) ==> WorstCase O(n) for each 
+- Big O ==> Space O(n) and time O(1) for each 
+- Insert ==> BestCase O(1) ==> WorstCase O(n) for each 
+- Search ==> BestCase O(1) ==> WorstCase O(n) for each 
+- Delete ==> BestCase O(1) ==> WorstCase O(n) for each 
 - Big O for Both ==> O(n^2)
 
 

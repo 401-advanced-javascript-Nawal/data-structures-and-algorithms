@@ -1,0 +1,24 @@
+{
+  "name": "data-structures-and-algorithms",
+  "version": "1.0.0",
+  "description": "# Hashtables - A hash table is a data structure that is used to store keys/value pairs. It uses a hash function to compute an index into an array in which an element will be inserted or searched.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.1.0"
+  }
+}
