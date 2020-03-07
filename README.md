@@ -32,4 +32,8 @@
 - Delete ==> BestCase O(1) ==> WorstCase O(n) for each 
 - Big O for Both ==> O(n^2)
 
+- Big O explianation 
+* I need to iterate over 1st hashtable then on the 2nd hashtable to get the values for each so the time it will takes two times so, the Big o ==> O(n^2) 
+* for space same situation but the values maybe be duplicated with each other so, Space Big O ==> O(n-n^2)
+
 ## White-Board

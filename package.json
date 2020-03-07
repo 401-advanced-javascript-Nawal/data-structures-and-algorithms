@@ -4,7 +4,8 @@
   "description": "# Hashtables - A hash table is a data structure that is used to store keys/value pairs. It uses a hash function to compute an index into an array in which an element will be inserted or searched.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose --coverage",
+    "lint": "eslint '**/*.js'" 
   },
   "repository": {
     "type": "git",
