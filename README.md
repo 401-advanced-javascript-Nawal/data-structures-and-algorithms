@@ -37,3 +37,4 @@
 * for space same situation but the values maybe be duplicated with each other so, Space Big O ==> O(n-n^2)
 
 ## White-Board
+https://github.com/401-advanced-javascript-Nawal/data-structures-and-algorithms/blob/C33-left-join/20200307_203258.jpg
